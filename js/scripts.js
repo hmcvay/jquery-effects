@@ -12,4 +12,7 @@ $(document).ready(function() {
   $(".secret").click(function() {
     $(".smiley").fadeIn();
   });
+  $(".touch-me").click(function() {
+    $(".wink").fadeIn();
+  });
 });
