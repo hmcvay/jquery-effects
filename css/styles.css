@@ -1,0 +1,23 @@
+img {
+  width: 200px;
+  height: auto;
+}
+
+#walrus-showing {
+  display: none;
+}
+
+.show {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.hide {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+
+.clickable:hover {
+  text-decoration: underline;
+}
