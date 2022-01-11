@@ -6,4 +6,10 @@ $(document).ready(function() {
   $(".hide").click(function() {
     $("#walrus-showing").fadeOut();
   });
+  $(".click-me").click(function() {
+    $(".appear").slideToggle();
+  });
+  $(".secret").click(function() {
+    $(".smiley").fadeIn();
+  });
 });

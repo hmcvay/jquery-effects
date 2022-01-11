@@ -17,7 +17,25 @@ img {
   color: #0088cc;
 }
 
+.secret {
+  cursor: pointer;
+  color: #0088cc;
+}
+
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.appear {
+  display: none;
+}
+
+.smiley {
+  display: none;
+}
+
+.click-me {
+  cursor: pointer;
+  color: #0088cc;
 }
